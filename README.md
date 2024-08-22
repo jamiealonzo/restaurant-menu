@@ -2,25 +2,10 @@ Restaurant Menu Web Application
 
 Description: This project is a dynamic and responsive restaurant menu website created as part of a coding assessment. The site offers a clean and user-friendly interface that displays a variety of menu items along with their prices.
 
-Frontend
+Frontend: The frontend is developed using React.js, demonstrating effective use of components, state management, and props to render the menu dynamically. The design emphasizes simplicity and ease of navigation, ensuring a seamless user experience.
 
-Technology: React.js
+Backend: Powered by Django, the backend provides robust and scalable support for the website. It includes two API endpoints designed to efficiently deliver menu data to the frontend, ensuring quick and reliable updates. Django’s built-in features, like the admin interface and ORM, are leveraged to streamline data management.
 
-Features:
-Displays a list of menu items with their names and prices.
-Utilizes components for structured and reusable code.
-Includes styling with CSS to enhance the visual presentation.
-Background image for a more engaging user interface.
+Database: The website uses SQLite, Django's default database, to store and manage menu items. This lightweight database is perfect for this project, offering fast and efficient data handling.
 
-Backend
-
-Technology: Django
-
-Features:
-Provides API endpoints to fetch menu items for the front-end.
-Models are set up to manage menu item data, including attributes like name and price.
-Utilizes SQLite as the default database for simplicity.
-
-Bonus
-
-Deployment: The application includes a 3-tier AWS architecture diagram for deployment considerations.
+Bonus: The project also includes a 3-tier AWS architecture diagram, showcasing a scalable deployment strategy. This diagram illustrates how the application could be hosted on AWS, ensuring high availability, security, and performance.
