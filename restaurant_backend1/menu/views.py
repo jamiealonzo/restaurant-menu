@@ -1,8 +1,16 @@
-from django.shortcuts import render
 from django.http import JsonResponse
-from .models import MenuItem
 
-def menu_items(request):
-    items = MenuItem.objects.all().values('name', 'price')
-    return JsonResponse(list(items), safe=False)
+def home_view(request):
+    data = {"message": "Welcome to Tato's Paw-some Bistro!"}
+    return JsonResponse(data)
+
+def menu_view(request):
+    data = {
+        "menu": [
+            {"name": "Sandwich", "price": "$12.99"},
+            {"name": "Soup", "price": "$8.99"},
+            {"name": "Salad", "price": "$10.99"}
+        ]
+    }
+    return JsonResponse(data)
 
