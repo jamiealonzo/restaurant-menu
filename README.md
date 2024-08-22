@@ -1,6 +1,6 @@
 Restaurant Menu Web Application
 
-Description: This repository contains a simple restaurant menu web application developed using React.js for the front-end and Django for the back-end. The application allows users to view a list of menu items, with details such as name and price.
+Description: This project is a dynamic and responsive restaurant menu website created as part of a coding assessment. The site offers a clean and user-friendly interface that displays a variety of menu items along with their prices.
 
 Frontend
 
