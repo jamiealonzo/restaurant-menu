@@ -18,21 +18,6 @@ Features:
 Provides API endpoints to fetch menu items for the front-end.
 Models are set up to manage menu item data, including attributes like name and price.
 Utilizes SQLite as the default database for simplicity.
-Setup Instructions
-Frontend:
-
-Navigate to the frontend directory.
-Run npm install to install dependencies.
-Start the development server with npm start.
-Backend:
-
-Navigate to the backend directory.
-Set up a virtual environment and install Django with pip install Django.
-Run Django migrations and start the server with:
-bash
-Copy code
-python manage.py migrate
-python manage.py runserver
 
 Bonus
 
